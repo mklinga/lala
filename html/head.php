@@ -14,13 +14,13 @@
     </div>
     <nav id='navigation' class='hide-on-mobile'>
       <div class='nav-links'>
-        <a data-scroll href='/index.php'>etusivu</a>
-        <a data-scroll href='/toiminta.php'>toiminta</a>
-        <a data-scroll href='/tulemukaan.php'>tule mukaan</a>
-        <a data-scroll href='/tilaa.php'>tilaa</a>
-        <a data-scroll href='/yhteystiedot.php'>yhteys</a>
-        <a data-scroll href='/media.php'>LaLa mediassa</a>
-        <a data-scroll href='#kohtaamisia'>kohtaamisia</a>
+        <a data-scroll href='/v2/index.php'>etusivu</a>
+        <a data-scroll href='/v2/toiminta.php'>toiminta</a>
+        <a data-scroll href='/v2/tulemukaan.php'>tule mukaan</a>
+        <a data-scroll href='/v2/tilaa.php'>tilaa</a>
+        <a data-scroll href='/v2/yhteystiedot.php'>yhteys</a>
+        <a data-scroll href='/v2/media.php'>LaLa mediassa</a>
+        <a data-scroll href='/v2/kohtaamisia.php'>kohtaamisia</a>
       </div>
       <div class='nav-contact'>
         <div class='nav-img-wrapper'>

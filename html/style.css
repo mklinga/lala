@@ -415,7 +415,8 @@ body {
   font-family: 'PT Sans', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Prosto One'; }
+  font-family: 'Prosto One';
+  font-weight: normal; }
 
 .menu-toggle {
   display: none;
@@ -461,10 +462,20 @@ nav#navigation {
       text-decoration: none; }
       nav#navigation .nav-links a:first-of-type {
         border-left: none; }
+      @media (max-width: 768px) {
+        nav#navigation .nav-links a {
+          border: none;
+          font-size: 2em;
+          color: #93117e; } }
   nav#navigation .nav-contact {
     padding: 10px;
     display: flex;
     flex: 0 0 auto; }
+    @media (max-width: 768px) {
+      nav#navigation .nav-contact {
+        background: #93117e;
+        width: 100%;
+        justify-content: center; } }
     nav#navigation .nav-contact .nav-img-wrapper {
       margin: 0 2px;
       background: #93117e;
@@ -495,12 +506,13 @@ div.container-wrapper {
 main.container {
   flex-grow: 1;
   width: 90%;
-  margin: auto;
+  margin: 50px auto 0 auto;
   max-width: 1280px;
   background: white; }
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     main.container {
-      margin-top: 56px; } }
+      margin: auto;
+      width: 100%; } }
   main.container a {
     color: #93117e;
     font-weight: bold; }
@@ -548,13 +560,17 @@ section.block {
     font-style: italic;
     line-height: 200%; }
   section.block ul {
-    list-style: none; }
+    list-style: none;
+    padding-left: 0; }
     section.block ul li {
       margin: 20px 0; }
   section.block aside.box > div {
     margin: 25px;
     padding: 25px;
     border: 1px solid #93117e; }
+    @media (max-width: 768px) {
+      section.block aside.box > div {
+        margin: 25px 0; } }
     section.block aside.box > div p {
       margin: 0;
       width: 100%; }
@@ -636,6 +652,9 @@ footer#footer {
 
 #lomake {
   display: flex; }
+  @media (max-width: 768px) {
+    #lomake {
+      flex-direction: column; } }
   #lomake form {
     flex-basis: 66%; }
     #lomake form > div {
@@ -658,3 +677,40 @@ footer#footer {
           cursor: pointer; }
   #lomake aside {
     flex-basis: 33%; }
+
+#kohtaamisia {
+  display: flex;
+  flex-wrap: wrap;
+  background: #53334d;
+  color: white;
+  padding: 0 25px;
+  margin-top: 50px;
+  order: 0; }
+  #kohtaamisia > div:not(:first-of-type) {
+    order: 2; }
+  #kohtaamisia #kohtaamisia-header {
+    background: #93117e;
+    text-align: center;
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    order: 1; }
+    #kohtaamisia #kohtaamisia-header h1 {
+      display: inline-block;
+      background: white;
+      color: #93117e;
+      margin: 0;
+      padding: 25px; }
+    #kohtaamisia #kohtaamisia-header .filler {
+      flex-grow: 1;
+      background: #53334d; }
+  #kohtaamisia .kohtaaminen {
+    flex-basis: 33%; }
+    #kohtaamisia .kohtaaminen h3 {
+      font-size: 1em; }
+  @media (max-width: 768px) {
+    #kohtaamisia {
+      flex-direction: column; }
+      #kohtaamisia .kohtaaminen {
+        flex-basis: 100%;
+        order: 2; } }
