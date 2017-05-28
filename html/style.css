@@ -727,6 +727,17 @@ footer#footer {
   order: 0; }
   #kohtaamisia > div:not(:first-of-type) {
     order: 2; }
+  #kohtaamisia div.img-break {
+    display: flex;
+    align-items: center; }
+    #kohtaamisia div.img-break img {
+      display: block;
+      max-width: 50%; }
+    @media (max-width: 768px) {
+      #kohtaamisia div.img-break {
+        flex-direction: column; }
+        #kohtaamisia div.img-break img {
+          max-width: 100%; } }
   #kohtaamisia #kohtaamisia-header {
     background: #93117e;
     text-align: center;

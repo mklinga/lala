@@ -439,6 +439,24 @@ footer#footer {
     order: 2;
   }
 
+  div.img-break {
+    display: flex;
+    align-items: center;
+
+    img {
+      display: block;
+      max-width: 50%;
+    }
+
+    @media (max-width: $mobile) {
+      flex-direction: column;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
   #kohtaamisia-header {
     background: $primary;
     text-align: center;
@@ -463,6 +481,7 @@ footer#footer {
 
   .kohtaaminen {
     flex-basis: 33%;
+
     h3 {
       font-size: 1em;
     }

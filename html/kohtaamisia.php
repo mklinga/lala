@@ -19,6 +19,10 @@
     <p>Kyyneleet ovat tapaamistemme "suola". Ensimmäisen kerran, kun hän itki, otin varovasti nenäliinan pöydältä ja pyyhin hänen kyyneleensä. Samalla me lähenimme toisiamme aivan eri tasolla. Hän ei enää puhu, mutta koen, että ymmärrämme toisiamme musiikin kautta. Halaan häntä lähtiessäni, ja kutsun häntä lauluystäväkseni.</p>
     <p>laulaja Siru</p>
   </div>
+  <div class='img-break'>
+    <img src='assets/kohtaamisia03.png' />
+    <img src='assets/kohtaamisia04.png' />
+  </div>
   <div class='kohtaaminen'>
     <h3>Heikki</h3>
     <p>Tapaamiset olivat eläväisiä. Heikki oli leppoisa ihminen, joka liikuttui laulusta, lauloi kovalla äänellä mukana, antoi aplodeja ja jutteli paljon. Itku ja nauru olivat herkässä. Heikki oli ilmeisen empaattinen ihminen, ja yhden käyntini aikana hänelle nousivat mieleen huonosti voivat vanhukset, joita hän hetken itki ja suri. Kävi ilmi, että Heikki tiesi paljon laulusta ja musiikista - se tuli hoitohenkilökunnallekin yllätyksenä - ja esimerkiksi tunnisti koulutetun äänen.</p>
