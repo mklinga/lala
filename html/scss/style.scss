@@ -52,6 +52,7 @@ nav#navigation {
   z-index: 666;
 
   @media (max-width: $mobile) {
+    width: 100%;
     &.hide-on-mobile {
       display: none;
     }
@@ -61,19 +62,20 @@ nav#navigation {
     display: flex;
 
     a {
-      color: #333;
-      padding: 4px 10px;
-      border-left: 1px solid #555;
+      border-radius: 4px;
+      color: $primary;
+      padding: 6px 10px;
+      margin: 3px 3px 0 3px;
       text-decoration: none;
 
-      &:first-of-type {
-        border-left: none;
-      }
-
       @media (max-width: $mobile) {
-        border: none;
         font-size: 2em;
         color: $primary;
+      }
+
+      &:hover, &.active {
+        background: $primary;
+        color: white;
       }
     }
   }
@@ -271,7 +273,7 @@ section.image-block {
       position: absolute;
     }
     bottom: 20px;
-    background: $primary-dark;
+    background: $primary;
     padding: 15px 0;
     width: 100%;
     z-index: 300;

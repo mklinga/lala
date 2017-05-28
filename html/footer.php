@@ -14,6 +14,5 @@
 
     </div>
     <script src="assets/lala.js" type="text/javascript" charset="utf-8"></script>
-    <script>smoothScroll.init({ offset: 10 });</script>
   </body>
 </html>
