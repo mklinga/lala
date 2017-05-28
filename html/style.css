@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -650,36 +651,71 @@ footer#footer {
       width: 24px;
       height: 24px; }
 
-#tilaa-lista {
-  list-style-type: square; }
+#tilaa .tilaa-head-block {
+  padding: 20px;
+  background: #93117e;
+  color: white; }
+  #tilaa .tilaa-head-block h2 {
+    text-align: left; }
 
-#lomake {
-  display: flex; }
+#tilaa #tilaa-lista {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  margin-top: 0; }
+  #tilaa #tilaa-lista li {
+    margin: 5px 0; }
+  #tilaa #tilaa-lista li:before {
+    display: inline-block;
+    content: "–";
+    width: 1em;
+    margin-left: -1em; }
+
+#tilaa #lomake {
+  display: flex;
+  margin-right: 0; }
   @media (max-width: 768px) {
-    #lomake {
+    #tilaa #lomake {
+      margin-right: auto;
       flex-direction: column; } }
-  #lomake form {
-    flex-basis: 66%; }
-    #lomake form > div {
+  #tilaa #lomake form {
+    flex-basis: 50%; }
+    #tilaa #lomake form > div {
       margin-top: 15px; }
-      #lomake form > div label {
+      #tilaa #lomake form > div label {
         display: block; }
-      #lomake form > div input[type="text"] {
+      #tilaa #lomake form > div input[type="text"] {
         padding: 5px; }
-      #lomake form > div input[type="text"], #lomake form > div textarea {
+      #tilaa #lomake form > div input[type="text"], #tilaa #lomake form > div textarea {
         margin-top: 1px;
         width: 100%; }
-      #lomake form > div input[type="submit"] {
+      #tilaa #lomake form > div input[type="submit"] {
         color: white;
         border: 1px solid black;
         background: #93117e;
         padding: 10px 20px;
         border-radius: 3px; }
-        #lomake form > div input[type="submit"]:hover {
+        #tilaa #lomake form > div input[type="submit"]:hover {
           background: #53334d;
           cursor: pointer; }
-  #lomake aside {
-    flex-basis: 33%; }
+  #tilaa #lomake aside.box {
+    flex-basis: 50%; }
+    @media (min-width: 768px) {
+      #tilaa #lomake aside.box {
+        background-image: url(assets/tilaa.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 80%;
+        margin-left: 10px;
+        position: relative; } }
+    #tilaa #lomake aside.box .viisi-kohtaamista {
+      border: 0;
+      margin: 0; }
+      @media (min-width: 768px) {
+        #tilaa #lomake aside.box .viisi-kohtaamista {
+          position: absolute;
+          top: 50%;
+          background: rgba(255, 255, 255, 0.7); } }
 
 #kohtaamisia {
   display: flex;

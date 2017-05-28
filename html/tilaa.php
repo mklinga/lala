@@ -1,20 +1,22 @@
 <?php include('head.php'); ?>
 
 <section id='tilaa' class='block'>
-  <h2>Tilaa</h2>
-  <div class='context-item'>
-    Ilahduta läheistäsi tai sponsoroi laulajan vierailu laitokseen!
-    <ul id='tilaa-lista'>
-      <li>
-      Laitoslaulaja kohtaa valitun henkilön viisi kertaa. Yksi kohtaaminen kestää 45 minuuttia.  
-      </li>
-      <li>
-      Viiden kerran laululahjapaketti maksaa 250 euroa. Summa menee lyhentämättömänä laulajan palkkaan ja sivukuluihin.
-      </li>
-      <li>
-      Anna elämänlaatua nostava lahja läheisellesi tai tee Laitoslaulajien toimintaa tukeva lahjoitus kotipaikkakuntasi palvelutaloon. 
-      </li>
-    </ul>
+  <div class='tilaa-head-block'>
+    <h2>Tilaa</h2>
+    <div>
+      Ilahduta läheistäsi tai sponsoroi laulajan vierailu laitokseen!
+      <ul id='tilaa-lista'>
+        <li>
+        Laitoslaulaja kohtaa valitun henkilön viisi kertaa. Yksi kohtaaminen kestää 45 minuuttia.  
+        </li>
+        <li>
+        Viiden kerran laululahjapaketti maksaa 250 euroa. Summa menee lyhentämättömänä laulajan palkkaan ja sivukuluihin.
+        </li>
+        <li>
+        Anna elämänlaatua nostava lahja läheisellesi tai tee Laitoslaulajien toimintaa tukeva lahjoitus kotipaikkakuntasi palvelutaloon. 
+        </li>
+      </ul>
+    </div>
   </div>
 
   <section class='context-item' id='lomake'>
@@ -57,12 +59,12 @@
     </form>
 
     <aside class='box'>
-      <div>
-      <h3>5 kohtaamista</h3>
-      <p>
-      Miksi juuri viisi? Koska yksi tai kaksi laulutapaamista jäisi pintaraapaisuksi. Haluamme tarjota kokonaisuuden, jolla on tuntuva vaikutus vanhuksen hyvinvointiin. Kun tullaan tutummiksi, kohtaamisesta jää pysyvämpi muisto. 
-      </p>
-    </div>
+      <div class='viisi-kohtaamista'>
+        <h3>5 kohtaamista</h3>
+        <p>
+        Miksi juuri viisi? Koska yksi tai kaksi laulutapaamista jäisi pintaraapaisuksi. Haluamme tarjota kokonaisuuden, jolla on tuntuva vaikutus vanhuksen hyvinvointiin. Kun tullaan tutummiksi, kohtaamisesta jää pysyvämpi muisto. 
+        </p>
+      </div>
     </aside>
   </section>
 </section>
