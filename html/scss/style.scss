@@ -305,24 +305,42 @@ footer#footer {
 
 // Special handling of some items
 
-#yhteys-stripe {
-  width: 100%;
-  margin: 20px 0;
-  background: $primary;
-
-  a {
+#yhteys {
+  .yhteys-head-block {
+    padding: 20px;
+    background: $primary;
     color: white;
+    width: 100%;
+    > p {
+      width: auto;
+      margin: 5px;
+    }
   }
 
-  ul {
-    padding: 20px 0;
-    text-align: center;
-    li {
-      img {
-        margin: 5px;
-        display: inline-block;
-        width: 24px;
-        height: 24px;
+  > section.image-block {
+    margin: 0;
+  }
+
+  #yhteys-stripe {
+    width: 100%;
+    margin: 0;
+    background: $primary;
+
+    a {
+      color: white;
+    }
+
+    ul {
+      padding: 20px 0;
+      margin-top: 0;
+      text-align: center;
+      li {
+        img {
+          margin: 5px;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+        }
       }
     }
   }

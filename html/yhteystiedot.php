@@ -1,13 +1,19 @@
 <?php include('head.php'); ?>
 
 <section id='yhteys' class='block'>
-  <h2>Yhteystiedot</h2>
-  <p>
-  Tilaa laulupaketti tai kysy lisätietoja Laitoslaulajien toiminnasta!
-  </p>
-  <p>
-  Ota yhteyttä meihin sähköpostilla tai puhelimitse. Kerromme mielellämme lisää.
-  </p>
+  <section class='image-block block'>
+    <div class='images'>
+      <div><img src="assets/yhteys.png" alt=""/></div>
+      <div class='purple-haze'>&nbsp;</div>
+    </div>
+    <div class='image-block-header'>
+      <h2>Yhteystiedot</h2>
+    </div>
+    <div class='image-block-text'>
+    <p>Tilaa laulupaketti tai kysy lisätietoja Laitoslaulajien toiminnasta!</p>
+    <p>Ota yhteyttä meihin sähköpostilla tai puhelimitse. Kerromme mielellämme lisää.</p>
+    </div>
+  </section>
   <div id='yhteys-stripe'>
     <ul>
       <li>
