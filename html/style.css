@@ -622,7 +622,6 @@ section.image-block {
     transform: translateX(-50%);
     background: white;
     padding: 15px;
-    max-width: 120px;
     z-index: 300; }
 
 footer#footer {
@@ -716,6 +715,13 @@ footer#footer {
           position: absolute;
           top: 50%;
           background: rgba(255, 255, 255, 0.7); } }
+
+#tule-mukaan a {
+  color: white;
+  text-decoration: underline; }
+
+#lala-mediassa img {
+  max-width: 100%; }
 
 #kohtaamisia {
   display: flex;
