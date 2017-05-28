@@ -17,7 +17,7 @@
     </div>
   </div>
   <div>
-    <img src='assets/mediassa.png' />
+    <img src='assets/mediassa.jpg' />
   </div>
 </section>
 

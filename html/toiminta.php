@@ -8,8 +8,8 @@
 </section>
 <section id='miten' class='image-block block'>
   <div class='images'>
-    <div><img src="assets/kuva1.png" alt=""/></div>
-    <div><img src="assets/kuva2.png" alt=""/></div>
+    <div><img src="assets/kuva1.jpg" alt=""/></div>
+    <div><img src="assets/kuva2.jpg" alt=""/></div>
     <div class='purple-haze'>&nbsp;</div>
   </div>
   <div class='image-block-header'>
@@ -28,8 +28,8 @@
 </section>
 <section id='missa' class='image-block block'>
   <div class='images'>
-    <div><img src="assets/kuva3.png" alt=""/></div>
-    <div><img src="assets/kuva4.png" alt=""/></div>
+    <div><img src="assets/kuva3.jpg" alt=""/></div>
+    <div><img src="assets/kuva4.jpg" alt=""/></div>
     <div class='purple-haze'></div>
   </div>
   <div class='image-block-header'>

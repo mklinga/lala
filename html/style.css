@@ -651,17 +651,27 @@ footer#footer {
   width: 100%;
   margin: 0;
   background: #93117e; }
+  #yhteys #yhteys-stripe .color-box {
+    color: white;
+    padding: 25px; }
+    #yhteys #yhteys-stripe .color-box > p {
+      width: 100%;
+      margin: 5px; }
   #yhteys #yhteys-stripe a {
     color: white; }
   #yhteys #yhteys-stripe ul {
-    padding: 20px 0;
+    padding: 0 0 20px 0;
     margin-top: 0;
-    text-align: center; }
-    #yhteys #yhteys-stripe ul li img {
-      margin: 5px;
-      display: inline-block;
-      width: 24px;
-      height: 24px; }
+    display: flex;
+    justify-content: space-around; }
+    #yhteys #yhteys-stripe ul li {
+      text-align: center;
+      margin-top: 0; }
+      #yhteys #yhteys-stripe ul li img {
+        margin: 5px;
+        display: inline-block;
+        width: 24px;
+        height: 24px; }
 
 #tilaa .tilaa-head-block {
   padding: 20px;

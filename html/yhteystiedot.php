@@ -3,18 +3,18 @@
 <section id='yhteys' class='block'>
   <section class='image-block block'>
     <div class='images'>
-      <div><img src="assets/yhteys.png" alt=""/></div>
+      <div><img src="assets/yhteys.jpg" alt=""/></div>
       <div class='purple-haze'>&nbsp;</div>
     </div>
     <div class='image-block-header'>
       <h2>Yhteystiedot</h2>
     </div>
-    <div class='image-block-text'>
-    <p>Tilaa laulupaketti tai kysy lisätietoja Laitoslaulajien toiminnasta!</p>
-    <p>Ota yhteyttä meihin sähköpostilla tai puhelimitse. Kerromme mielellämme lisää.</p>
-    </div>
   </section>
   <div id='yhteys-stripe'>
+    <div class='color-box'>
+      <h4>Tilaa laulupaketti tai kysy lisätietoja Laitoslaulajien toiminnasta!</h4>
+      <p>Ota yhteyttä meihin sähköpostilla tai puhelimitse. Kerromme mielellämme lisää.</p>
+    </div>
     <ul>
       <li>
         <a type='email' href='mailto:puheenjohtaja@laitoslaulajat.fi'>

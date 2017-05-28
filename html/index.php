@@ -2,7 +2,7 @@
 
 <div class='head'>
   <div class='stripe-container'>
-    <img src='assets/top.png' />
+    <img src='assets/top.jpg' />
   </div>
   <section class='header-text-block'>
     <h2>Musiikki koskettaa</h2>

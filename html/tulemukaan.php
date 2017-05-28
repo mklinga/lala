@@ -11,8 +11,8 @@
   </section>
   <section class='image-block block'>
     <div class='images'>
-      <div><img src="assets/tulemukaan02.png" alt=""/></div>
-      <div><img src="assets/tulemukaan01.png" alt=""/></div>
+      <div><img src="assets/tulemukaan02.jpg" alt=""/></div>
+      <div><img src="assets/tulemukaan01.jpg" alt=""/></div>
       <div class='purple-haze'>&nbsp;</div>
     </div>
     <div class='image-block-header'>

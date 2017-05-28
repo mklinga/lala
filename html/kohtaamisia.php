@@ -20,8 +20,8 @@
     <p>laulaja Siru</p>
   </div>
   <div class='img-break'>
-    <img src='assets/kohtaamisia03.png' />
-    <img src='assets/kohtaamisia04.png' />
+    <img src='assets/kohtaamisia03.jpg' />
+    <img src='assets/kohtaamisia04.jpg' />
   </div>
   <div class='kohtaaminen'>
     <h3>Heikki</h3>
