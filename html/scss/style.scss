@@ -15,6 +15,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
 .menu-toggle {
   display: none;
   @media (max-width: $mobile) {
@@ -174,7 +182,12 @@ div.head {
     p {
       display: block;
       max-width: 66%;
+      line-height: 1.5em;
       margin: auto;
+
+      @media (max-width: $mobile) {
+        max-width: 95%;
+      }
     }
   }
 }
@@ -184,14 +197,12 @@ section.block {
   margin: auto;
   padding: 50px 0 20px 0;
 
-  h2, h3 {
-    text-align: center;
+  &.invert-padding {
+    padding: 20px 0 50px 0;
   }
 
-  h3 {
-    font-weight: normal;
-    font-size: 1.8em;
-    font-style: italic;
+  h2, h3 {
+    text-align: center;
   }
 
   p, .context-item {
@@ -201,11 +212,16 @@ section.block {
   }
 
   blockquote {
-    border-left: 5px solid #ccc;
+    border-left: 5px solid $primary;
     padding-left: 25px;
     margin-left: 40px;
     font-style: italic;
     line-height: 200%;
+    max-width: 75%;
+    margin: auto;
+    @media (max-width: $mobile) {
+      max-width: 100%;
+    }
   }
 
   ul {
@@ -236,13 +252,22 @@ section.block {
 section.image-block {
   position: relative;
   width: 100%;
-  margin: 50px auto;
+  margin: 50px auto 20px auto;
   padding: 0;
+
+  @media (max-width: $mobile) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
 
   div.images {
     width: 100%;
     display: flex;
     position: relative;
+    @media (max-width: $mobile) {
+      order: 1;
+    }
     
     img {
       display: block;
@@ -264,7 +289,10 @@ section.image-block {
   }
 
   p {
-    margin: auto;
+    margin: auto; 
+    & + p {
+      margin-top: 10px;
+    }
   }
 
   div.image-block-text {
@@ -277,6 +305,9 @@ section.image-block {
     padding: 15px 0;
     width: 100%;
     z-index: 300;
+    @media (max-width: $mobile) {
+      order: 2;
+    }
   }
 
   div.image-block-header {
@@ -287,6 +318,12 @@ section.image-block {
     background: white;
     padding: 15px;
     z-index: 300;
+
+    @media (max-width: $mobile) {
+      position: static;
+      transform: none;
+      order: 0;
+    }
   }
 }
 
@@ -328,6 +365,8 @@ footer#footer {
 
     .color-box {
       color: white;
+      margin-bottom: 25px;
+      text-align: center;
       padding: 25px;
       > p {
         width: 100%;
@@ -344,6 +383,10 @@ footer#footer {
       margin-top: 0;
       display: flex;
       justify-content: space-around;
+
+      @media (max-width: $mobile) {
+        flex-direction: column;
+      }
 
       li {
         text-align: center;
@@ -391,15 +434,21 @@ footer#footer {
 
   #lomake {
     display: flex;
-    margin-right: 0;
+    margin: 25px 0 25px 100px;
+    width: auto;
 
     @media (max-width: $mobile) {
-      margin-right: auto;
+      margin: 25px auto;
       flex-direction: column;
     }
 
     form {
       flex-basis: 50%;
+      padding-right: 50px;
+
+      @media (max-width: $mobile) {
+        padding: 10px;
+      }
 
       >div {
         margin-top: 15px;

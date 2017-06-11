@@ -3,16 +3,17 @@
 
 <section id='lala-mediassa' class='block'>
   <div>
-    <h2>LaLa kiinnostaa myös mediaa</h2>
+    <h2>Hyvät tarinat koskettavat</h2>
     <p>
       Tässä poimintoja meistä tehdyistä lehtijutuista.
     </p>
 
     <div class='context-item'>
       <ul>
-        <li><a href='/assets/pdf/Hilkka_muisti.pdf'>Hilkka muisti laulun sanat</a></li>
-        <li><a href='/assets/pdf/Laitoslaulajat.pdf'>Laulu vain hänelle</a></li>
-        <li><a href='/assets/pdf/seura.pdf'>Laulettaisiinko vähän?</a></li>
+        <li><a href='/assets/pdf/Hilkka_muisti.pdf'>Hilkka muisti laulun sanat (Somero-lehti 2.8.2016)</a></li>
+        <li><a href='/assets/pdf/Laitoslaulajat.pdf'>Laulu vain hänelle (Forssan lehti 21.1.2017)</a></li>
+        <li><a href='/assets/pdf/seura.pdf'>Laulettaisiinko vähän? (Seura 2/2015)</a></li>
+        <li><a href='/assets/pdf/Laulut_nostavat_muistot_pintaan.pdf'>Laulut nostavat muistot pintaan (Mielenterveys-lehti 4/2013)</a></li>
       </ul>
     </div>
   </div>

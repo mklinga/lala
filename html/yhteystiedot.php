@@ -19,7 +19,7 @@
       <li>
         <a type='email' href='mailto:puheenjohtaja@laitoslaulajat.fi'>
           <img src='assets/at.png' alt='email' /><br/>
-          <span>puheenjohtaja@laitoslaulajat</span>
+          <span>puheenjohtaja@laitoslaulajat.fi</span>
         </a>
       </li>
       <li>
