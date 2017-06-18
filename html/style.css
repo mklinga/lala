@@ -656,15 +656,20 @@ section.image-block {
         order: 0; } }
 
 footer#footer {
-  background: #93117e;
-  display: flex;
-  padding: 30px;
-  justify-content: center; }
-  footer#footer img {
-    width: 50px;
-    margin: 0 5px;
-    height: 50px;
-    display: block; }
+  background: #93117e; }
+  footer#footer div#footer-links {
+    display: flex;
+    padding: 30px;
+    justify-content: center; }
+    footer#footer div#footer-links img {
+      width: 50px;
+      margin: 0 5px;
+      height: 50px;
+      display: block; }
+  footer#footer div#copyright {
+    padding-bottom: 30px;
+    color: #bbb;
+    text-align: center; }
 
 #yhteys .yhteys-head-block {
   padding: 20px;

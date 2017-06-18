@@ -4,8 +4,7 @@
   <section class='block'>
     <h2>Liity jäseneksi</h2>
     <p>
-    Helpoin tapa tukea toimintaamme on liittyä kannatusjäseneksi. Kannatusjäsenen vuosittaisella 50 euron maksulla saat kerran vuodessa uutiskirjeen, jossa kerromme kuulumisistamme.
-    Varsinaiseksi jäseneksi voit liittyä käytyäsi Laitoslaulajat ry:n viikonloppuvalmennuksen. Laulajilta edellytetään laulutaustaa. Jäsenmaksu on 15 euroa.
+      Varsinaiseksi jäseneksi voit liittyä käytyäsi Laitoslaulajat ry:n viikonloppuvalmennuksen. Laulajilta edellytetään laulutaustaa. Jäsenmaksu on 15 euroa.
     </p>
   </section>
   <section class='image-block block'>
@@ -22,9 +21,9 @@
     </div>
   </section>
   <section class='block'>
-    <h2>Tule taustalaulajaksi</h2>
+    <h2>Tule Taustalaulajaksi</h2>
     <p>
-      Haluatko olla mukana, mutta et rohkene tai ehdi laulaa itse? Tule taustalaulajaksi! Helpoin tapa tukea toimintaamme on liittyä kööriin taustalaulajaksi. Taustalaulajat ovat kullanarvoisia kannatusjäseniä, joita ilman homma ei toimi. Vuosittaisella 50 euron maksulla taustalaulaja saa kerran vuodessa uutiskirjeen, jossa kerromme kuulumisistamme.
+      Haluatko olla mukana tukemassa toimintaa, vaikka et itse eturivin soololaulaja olisikaan? Liity kannatusjäseneksi eli Taustalaulajaksi, jos sinulle on tärkeää, että mahdollisimman moni vanhus pääsee nauttimaan lauluvierailuista. Taustalaulajat ovat meille kullanarvoisia: ilman teitä homma ei toimi. Vuosittaisella 50 euron maksulla Taustalaulaja saa kerran vuodessa uutiskirjeen, jossa kerromme kuulumisistamme.
     </p>
   </section>
   <section class='block invert-padding'>

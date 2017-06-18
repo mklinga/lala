@@ -14,7 +14,7 @@
   </div>
   <div class='image-block-text'>
     <p>
-    Rekisterlity yhdistys perustettiin syksyllä 2012. Laitoslaulajat ry:n toimintaa ovat myöhemmin tukeneet muun muassa Taiteen edistämiskeskus, Helena Lavikaisen säätiö ja Someron Säästöpankki.
+    Rekisteröity yhdistys perustettiin syksyllä 2012. Laitoslaulajat ry:n toimintaa ovat myöhemmin tukeneet muun muassa Taiteen edistämiskeskus, Helena Lavikaisen säätiö ja Someron Säästöpankki.
     </p>
   </div>
 </section>

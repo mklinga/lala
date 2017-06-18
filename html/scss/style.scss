@@ -329,15 +329,24 @@ section.image-block {
 
 footer#footer {
   background: $primary;
-  display: flex;
-  padding: 30px;
-  justify-content: center;
-  img {
-    width: 50px;
-    margin: 0 5px;
-    height: 50px;
-    display: block;
+  div#footer-links {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    img {
+      width: 50px;
+      margin: 0 5px;
+      height: 50px;
+      display: block;
+    }
   }
+
+  div#copyright {
+    padding-bottom: 30px;
+    color: #bbb;
+    text-align: center;
+  }
+
 }
 
 // Special handling of some items
