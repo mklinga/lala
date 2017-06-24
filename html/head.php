@@ -13,14 +13,14 @@
     </div>
     <nav id='navigation' class='hide-on-mobile'>
       <div class='nav-links'>
-        <a href='/v2/index.php'>Laitoslaulajat</a>
-        <a href='/v2/toiminta.php'>Mitä me teemme?</a>
-        <a href='/v2/keita.php'>Keitä me olemme?</a>
-        <a href='/v2/tulemukaan.php'>Tule mukaan</a>
-        <a href='/v2/tilaa.php'>Tilaa</a>
-        <a href='/v2/yhteystiedot.php'>Yhteys</a>
-        <a href='/v2/media.php'>LaLa mediassa</a>
-        <a href='/v2/kohtaamisia.php'>Kohtaamisia</a>
+        <a href='/index.php'>Laitoslaulajat</a>
+        <a href='/toiminta.php'>Mitä me teemme?</a>
+        <a href='/keita.php'>Keitä me olemme?</a>
+        <a href='/tulemukaan.php'>Tule mukaan</a>
+        <a href='/tilaa.php'>Tilaa</a>
+        <a href='/yhteystiedot.php'>Yhteys</a>
+        <a href='/media.php'>LaLa mediassa</a>
+        <a href='/kohtaamisia.php'>Kohtaamisia</a>
       </div>
       <div class='nav-contact'>
         <div class='nav-img-wrapper'>

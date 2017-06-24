@@ -17,7 +17,7 @@
       <h2>Tilaa laulupaketti</h2>
     </div>
     <div class='image-block-text'>
-      <p>Hanki laitoslaulajan viiden kerran paketti tutulle vanhukselle. Tilauskaavakkeen löydät <a href='/v2/tilaa.php'>täältä</a>.</p>
+      <p>Hanki laitoslaulajan viiden kerran paketti tutulle vanhukselle. Tilauskaavakkeen löydät <a href='/tilaa.php'>täältä</a>.</p>
     </div>
   </section>
   <section class='block'>
