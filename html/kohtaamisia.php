@@ -32,6 +32,11 @@
     <p>Hoitajat varoittelivat etukäteen, että Maire voi olla välillä äkäinen. Hänellä on kovia kipuja, mikä saa ärsyyntymään. Ensimmäisellä kerralla hän täräytti, ettei missään nimessä aio laulaa. Lupasin, että ei ole pakko: kuunnellakin saa, jos vain kelpaa. Puolen tunnin jälkeen hän sanoi napakasti: "Eiköhän tämä jo riitä." Seuraavalla kerralla hän jaksoi kuunnella koko kolmevarttisen ja seuraavilla kerroilla lauloi jo mukana Kuningaskobraa ja muita suosikkejaan. Mairen huumori oli ihanan sarkastista.</p>
     <p>laulaja Anu</p>
   </div>
+  <div class='kohtaaminen'>
+    <h3>Maija</h3>
+    <p>Maija oli ensimmäisellä kerralla surullisen ja synkän oloinen, vaipui välillä omiin oloihinsa.  Hän tuntui pitävän laulujen kuuntelusta sekä valokuvien katselusta. Maija kertoi, ettei muista, keitä valokuvissa on.  Lauloin joka kerta kansanlauluja, ja Maijan jalka vipatti laulujen tahtiin. Toisella käynnillä Maija oli väsyneen oloinen ja nukahteli käyntini aikana. Kolmannesta kerrasta alkaen Maija alkoi hymyillä, muistella lapsuuttaan ja vanhempiaan – ja muisti lopulta valokuvien ihmisten nimiä.  Hoitaja kysyi minulta, mitä Maijalle on tapahtunut, kun hän on niin virkeä ja hymyileväinen. Kuulemma Maija ei ollut hymyillyt aikoihin.</p>
+    <p>laulaja Piritta</p>
+  </div>
 </section>
 
 <?php include('footer.php'); ?>

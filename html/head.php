@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Laitoslaulajat Ry</title>
+  <meta property="og:title" content="Laitoslaulajat Ry" />
+  <meta property="og:description" content="Laulu virittää tunteet ja muistot." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://laitoslaulajat.fi" />
+  <meta property="og:image" content="http://laitoslaulajat.fi/assets/og_image.jpg" /> <title>Laitoslaulajat Ry</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Prosto+One" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css" media="all">
 </head>

@@ -11,7 +11,7 @@ function initMobileMenu () {
 function setActivePage () {
   var pages = document.querySelectorAll('#navigation > .nav-links > a');
   var location = window.location.pathname;
-  if (location.match(/^\/$|^\/v2\/?$/)) {
+  if (location.match(/^\/$/)) {
     return document.querySelector('a[href*="index"]').classList.add('active')
   }
 
