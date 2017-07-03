@@ -19,6 +19,5 @@
       </footer>
 
     </div>
-    <script src="assets/main.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
