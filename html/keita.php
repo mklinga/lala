@@ -19,6 +19,78 @@
   </div>
 </section>
 
+<section class='block'>
+  <h2>Liity Laitoslaulajiin</h2>
+  <p>
+    Laitoslaulaja voi olla joko musiikin ammattilainen tai vankan harrastustaustan omaava ihminen, jolle laulaminen on tärkeä osa elämää ja vanhukset ja heidän hyvinvointinsa lähellä sydäntä. Hoiva-alan koulutus on hyvä apu, mutta ei välttämättömyys. Laitoslaulajana voi toimia muun työn tai opiskelujen ohessa.
+  </p><p>
+    Laitoslaulajat ovat vuorovaikutuksessa sekä laulamalla että keskustelemalla. Laitoslaulajilla on hyvät sosiaaliset taidot, empatian kykyä ja taito kohdata erilaisia ihmisiä sekä heidän elämäntarinoitaan. On osattava ymmärtää vaihtelevia fyysisen ja henkisen hyvinvoinnin tiloja. Laitoslaulaja piristää kohdattavan mieltä, tuo arkeen vaihtelua ja antaa laulamisen avulla syviä ja koskettavia elämyksiä.
+  </p><p>
+    Jokainen laitoslaulajaksi valittu perehdytetään vuorovaikutukseen ja kohtaavaan lauluun asiakkaan ympäristö huomioiden.
+  </p><p>
+    Innostuitko? Jos koet olevasi sopiva tähän työhön, laita hakemus tulemaan. Hakemuksen perusteella kutsumme haastatteluun, jonka jälkeen teemme valinnan, ja voit päästä perehdytykseen. Tällä prosessilla takaamme toimintamme laatutason ja varmistamme jokaisen laulajan soveltuvuuden laitoslaulajan työhön. Laitoslaulajat saavat työstään pienen palkan.
+  </p>
+  <form class="purple laitoslaulajaksi" action="laheta.php" method="post">
+    <div class="field-wrapper">
+      <div class='fields'>
+        <div>
+          <span>Etunimet</span>
+          <input name="etunimet" />
+        </div><div>
+          <span>Sukunimi</span>
+          <input name="sukunimi" />
+        </div><div>
+          <span>Lähiosoite</span>
+          <input name="lahiosoite" />
+        </div><div>
+          <span>Postinumero ja -toimipaikka</span>
+          <input name="postinumero" />
+        </div><div>
+          <span>Sähköposti</span>
+          <input name="sahkoposti" />
+        </div><div>
+          <span>Puhelinnumero</span>
+          <input name="puhelinnumero" />
+        </div><div>
+          <span>Syntymäaika</span>
+          <input name="syntymaaika" />
+        </div>
+      </div>
+      
+      <div class='send send-desktop'>
+        <div class='logo'>
+          <img src="/assets/logo.png" />
+        </div>
+        <div>
+          <input type="submit" value="Lähetä" name="lala_hakemus"/>
+        </div>
+      </div>
+    </div>
+
+    <div class='three-textareas'>
+      <div>
+        <span>Aiempi kokemus laulamisesta</span>
+        <textarea rows="6" name="aiempi_kokemus"></textarea>
+      </div><div>
+        <span>Muu hyödylliseksi katsomasi toiminta</span>
+        <textarea rows="6" name="muu_toiminta" ></textarea>
+      </div><div>
+        <span>Miksi haluat laitoslaulajaksi</span>
+        <textarea rows="6" name="miksi"></textarea>
+      </div>
+    </div>
+
+    <div class='send send-mobile'>
+      <div class='logo'>
+        <img src="/assets/logo.png" />
+      </div>
+      <div>
+        <input type="submit" value="Lähetä" name="lala_hakemus"/>
+      </div>
+    </div>
+  </form>
+</section>
+
 <section class='block invert-padding'>
   <h2>Mistä kaikki alkoi?</h2>
   <p>

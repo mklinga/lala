@@ -559,6 +559,10 @@ section.block {
   padding: 50px 0 20px 0; }
   section.block.invert-padding {
     padding: 20px 0 50px 0; }
+  section.block.no-padding {
+    padding: 0; }
+  section.block.no-bottom-margin {
+    margin-bottom: 0; }
   section.block h2, section.block h3 {
     text-align: center; }
   section.block p, section.block .context-item {
@@ -654,6 +658,131 @@ section.image-block {
         position: static;
         transform: none;
         order: 0; } }
+
+form.tulemukaan, form.laitoslaulajaksi {
+  display: flex;
+  font-family: "Prosto One";
+  padding: 15px; }
+  @media (max-width: 768px) {
+    form.tulemukaan, form.laitoslaulajaksi {
+      flex-direction: column; } }
+  form.tulemukaan.purple, form.laitoslaulajaksi.purple {
+    background: #93117e;
+    color: white; }
+  form.tulemukaan.field-wrapper, form.tulemukaan .field-wrapper, form.laitoslaulajaksi.field-wrapper, form.laitoslaulajaksi .field-wrapper {
+    display: flex; }
+    @media (max-width: 768px) {
+      form.tulemukaan.field-wrapper, form.tulemukaan .field-wrapper, form.laitoslaulajaksi.field-wrapper, form.laitoslaulajaksi .field-wrapper {
+        flex-direction: column; } }
+    form.tulemukaan.field-wrapper .fields, form.tulemukaan .field-wrapper .fields, form.laitoslaulajaksi.field-wrapper .fields, form.laitoslaulajaksi .field-wrapper .fields {
+      margin: 0 25px;
+      flex-grow: 1; }
+      @media (max-width: 768px) {
+        form.tulemukaan.field-wrapper .fields, form.tulemukaan .field-wrapper .fields, form.laitoslaulajaksi.field-wrapper .fields, form.laitoslaulajaksi .field-wrapper .fields {
+          margin: 0; } }
+      form.tulemukaan.field-wrapper .fields > div, form.tulemukaan .field-wrapper .fields > div, form.laitoslaulajaksi.field-wrapper .fields > div, form.laitoslaulajaksi .field-wrapper .fields > div {
+        display: flex;
+        align-items: center; }
+        @media (max-width: 768px) {
+          form.tulemukaan.field-wrapper .fields > div, form.tulemukaan .field-wrapper .fields > div, form.laitoslaulajaksi.field-wrapper .fields > div, form.laitoslaulajaksi .field-wrapper .fields > div {
+            flex-direction: column;
+            margin-bottom: 20px; }
+            form.tulemukaan.field-wrapper .fields > div span, form.tulemukaan .field-wrapper .fields > div span, form.laitoslaulajaksi.field-wrapper .fields > div span, form.laitoslaulajaksi .field-wrapper .fields > div span {
+              margin-bottom: 5px; } }
+        form.tulemukaan.field-wrapper .fields > div span, form.tulemukaan .field-wrapper .fields > div span, form.laitoslaulajaksi.field-wrapper .fields > div span, form.laitoslaulajaksi .field-wrapper .fields > div span {
+          display: block;
+          flex-basis: 50%; }
+        form.tulemukaan.field-wrapper .fields > div label, form.tulemukaan.field-wrapper .fields > div input, form.tulemukaan .field-wrapper .fields > div label, form.tulemukaan .field-wrapper .fields > div input, form.laitoslaulajaksi.field-wrapper .fields > div label, form.laitoslaulajaksi.field-wrapper .fields > div input, form.laitoslaulajaksi .field-wrapper .fields > div label, form.laitoslaulajaksi .field-wrapper .fields > div input {
+          flex-grow: 1; }
+        @media (max-width: 768px) {
+          form.tulemukaan.field-wrapper .fields > div.jasen-valinta, form.tulemukaan .field-wrapper .fields > div.jasen-valinta, form.laitoslaulajaksi.field-wrapper .fields > div.jasen-valinta, form.laitoslaulajaksi .field-wrapper .fields > div.jasen-valinta {
+            flex-direction: row; }
+            form.tulemukaan.field-wrapper .fields > div.jasen-valinta span, form.tulemukaan .field-wrapper .fields > div.jasen-valinta span, form.laitoslaulajaksi.field-wrapper .fields > div.jasen-valinta span, form.laitoslaulajaksi .field-wrapper .fields > div.jasen-valinta span {
+              flex-grow: 1; }
+            form.tulemukaan.field-wrapper .fields > div.jasen-valinta label, form.tulemukaan .field-wrapper .fields > div.jasen-valinta label, form.laitoslaulajaksi.field-wrapper .fields > div.jasen-valinta label, form.laitoslaulajaksi .field-wrapper .fields > div.jasen-valinta label {
+              flex-grow: 0; } }
+    form.tulemukaan.field-wrapper .send, form.tulemukaan .field-wrapper .send, form.laitoslaulajaksi.field-wrapper .send, form.laitoslaulajaksi .field-wrapper .send {
+      display: flex;
+      flex-grow: 0;
+      align-items: flex-end;
+      justify-content: center; }
+    form.tulemukaan.field-wrapper .margin-after, form.tulemukaan .field-wrapper .margin-after, form.laitoslaulajaksi.field-wrapper .margin-after, form.laitoslaulajaksi .field-wrapper .margin-after {
+      margin-bottom: 10px; }
+  form.tulemukaan .floating-send, form.laitoslaulajaksi .floating-send {
+    display: block;
+    float: right; }
+  form.tulemukaan .titles > span, form.laitoslaulajaksi .titles > span {
+    padding: 5px; }
+    form.tulemukaan .titles > span.taller, form.laitoslaulajaksi .titles > span.taller {
+      line-height: 25px; }
+  form.tulemukaan input, form.tulemukaan .box, form.laitoslaulajaksi input, form.laitoslaulajaksi .box {
+    margin: 1px 0;
+    border: none;
+    padding: 5px; }
+  form.tulemukaan label.fancy-cb input[type="checkbox"], form.laitoslaulajaksi label.fancy-cb input[type="checkbox"] {
+    display: none; }
+    form.tulemukaan label.fancy-cb input[type="checkbox"] + span.box, form.laitoslaulajaksi label.fancy-cb input[type="checkbox"] + span.box {
+      border: 1px solid black;
+      background: white;
+      display: inline-block;
+      width: 35px;
+      height: 33px; }
+      form.tulemukaan label.fancy-cb input[type="checkbox"] + span.box .check, form.laitoslaulajaksi label.fancy-cb input[type="checkbox"] + span.box .check {
+        display: none; }
+    form.tulemukaan label.fancy-cb input[type="checkbox"]:checked + span.box .check, form.laitoslaulajaksi label.fancy-cb input[type="checkbox"]:checked + span.box .check {
+      color: #93117e;
+      font-size: 20px;
+      display: inline-block; }
+  form.tulemukaan input[type="submit"], form.laitoslaulajaksi input[type="submit"] {
+    background: white;
+    color: #93117e;
+    border: #53334d;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer; }
+    form.tulemukaan input[type="submit"]:hover, form.laitoslaulajaksi input[type="submit"]:hover {
+      background: #53334d;
+      color: white; }
+
+form.laitoslaulajaksi {
+  display: block; }
+  form.laitoslaulajaksi .send {
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-around !important; }
+    form.laitoslaulajaksi .send.send-desktop {
+      display: flex; }
+    form.laitoslaulajaksi .send.send-mobile {
+      display: none; }
+    @media (max-width: 768px) {
+      form.laitoslaulajaksi .send.send-desktop {
+        display: none; }
+      form.laitoslaulajaksi .send.send-mobile {
+        display: flex; } }
+    form.laitoslaulajaksi .send .logo {
+      width: 50%; }
+      @media (max-width: 768px) {
+        form.laitoslaulajaksi .send .logo {
+          display: none; } }
+      form.laitoslaulajaksi .send .logo img {
+        display: block;
+        width: 100%; }
+  form.laitoslaulajaksi .three-textareas {
+    margin-top: 25px;
+    display: flex; }
+    @media (max-width: 768px) {
+      form.laitoslaulajaksi .three-textareas {
+        flex-direction: column; } }
+    form.laitoslaulajaksi .three-textareas > div {
+      padding: 10px 5px;
+      margin: 5px; }
+      form.laitoslaulajaksi .three-textareas > div span {
+        display: inline-block;
+        margin-bottom: 5px; }
+      form.laitoslaulajaksi .three-textareas > div textarea {
+        padding: 10px;
+        resize: none;
+        width: 100%; }
 
 footer#footer {
   background: #93117e; }

@@ -13,7 +13,7 @@
           </a>
         </div>
         <div id='copyright'>
-          Sivusto &amp; tekstit: Laitoslaulajat Ry.
+          Sivusto &amp; tekstit: Laitoslaulajat ry.
           Kuvat: Jussi Hermunen, Sami Suikkanen ja Armas Töykkälä.
         </div>
       </footer>

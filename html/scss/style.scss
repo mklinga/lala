@@ -201,6 +201,14 @@ section.block {
     padding: 20px 0 50px 0;
   }
 
+  &.no-padding {
+    padding: 0;
+  }
+  
+  &.no-bottom-margin {
+    margin-bottom: 0;
+  }
+
   h2, h3 {
     text-align: center;
   }
@@ -323,6 +331,196 @@ section.image-block {
       position: static;
       transform: none;
       order: 0;
+    }
+  }
+}
+
+form.tulemukaan, form.laitoslaulajaksi {
+  display: flex;
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+
+  font-family: "Prosto One";
+
+  &.purple {
+    background: $primary;
+    color: white;
+  }
+
+  padding: 15px;
+
+  &.field-wrapper, .field-wrapper {
+    display: flex;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+    }
+    .fields {
+      margin: 0 25px;
+      flex-grow: 1;
+
+      @media (max-width: $mobile) {
+        margin: 0;
+      }
+
+      > div {
+        display: flex;
+        align-items: center;
+
+
+        @media (max-width: $mobile) {
+          flex-direction: column;
+          margin-bottom: 20px;
+
+          span {
+            margin-bottom: 5px;
+          }
+        }
+
+        span {
+          display: block;
+          flex-basis: 50%;
+        }
+
+        label, input {
+          flex-grow: 1;
+        }
+
+        &.jasen-valinta {
+          @media (max-width: $mobile) {
+            flex-direction: row;
+
+            span {
+              flex-grow: 1;
+            }
+            label {
+              flex-grow: 0;
+            }
+          }
+        }
+      }
+
+    }
+
+    .send {
+      display: flex;
+      flex-grow: 0;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .margin-after {
+      margin-bottom: 10px;
+    }
+  }
+
+  .floating-send {
+    display: block;
+    float: right;
+  }
+
+  .titles > span {
+    padding: 5px;
+
+    &.taller {
+      line-height: 25px;
+    }
+  }
+
+  input, .box {
+    margin: 1px 0;
+    border: none;
+    padding: 5px;
+  }
+
+  label.fancy-cb {
+    input[type="checkbox"] {
+      display: none;
+
+      & + span.box {
+        border: 1px solid black;
+        background: white;
+        display: inline-block;
+        width: 35px;
+        height: 33px;
+
+        .check {
+          display: none;
+        }
+      }
+
+      &:checked + span.box .check {
+        color: $primary;
+        font-size: 20px;
+        display: inline-block;
+      }
+    }
+  }
+
+  input[type="submit"] {
+    background: white;
+    color: $primary;
+    border: $primary-dark;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background: $primary-dark;
+      color: white;
+    }
+  }
+}
+
+form.laitoslaulajaksi {
+  display: block;
+
+  .send {
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-around !important;
+
+    &.send-desktop { display: flex; }
+    &.send-mobile { display: none; }
+
+    @media (max-width: $mobile) {
+      &.send-desktop { display: none; }
+      &.send-mobile { display: flex; }
+    }
+
+    .logo {
+      width: 50%;
+      @media (max-width: $mobile) {
+        display: none;
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  .three-textareas {
+    margin-top: 25px;
+    display: flex;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+    }
+
+    > div {
+      padding: 10px 5px;
+      margin: 5px;
+
+      span {
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      textarea {
+        padding: 10px;
+        resize: none;
+        width: 100%;
+      }
     }
   }
 }
