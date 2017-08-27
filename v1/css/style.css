@@ -1,0 +1,115 @@
+
+/********************************************
+ * css/style.css 							*
+ * Contains stylings for LaitosLaulajat		*
+ * - index.html
+ *											*
+ * (c) Markus Klinga 2013					*
+ *											*
+ ********************************************/
+
+/* basic text rules for page*/
+body {
+	font-family: "Arial","Sans";
+	font-size: 11pt;
+	color: #0a0a0a;
+	background: #f1f1f1;
+}
+
+/* definitions of basic HTML elements */
+a {
+	color: #6a1846;
+	text-decoration: none;
+	font-size: 11pt;
+}
+
+a:hover {
+	color: #d42085;
+}
+
+/*
+ * Classes
+ */
+
+.nav_link {
+	color: #6a1846;
+}
+
+.nav_link_current {
+	color: #747474;
+}
+
+.nav_table_column {
+}
+
+.bottom_part {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../img/laitoslaulajat_text_bg.jpg');
+	padding: 0px;
+	margin: 0px;
+}
+
+.sub_link_current {
+	color: #747474;
+}
+
+/*
+ * Special IDs
+ */
+
+#content {
+	margin: 0px auto 0px auto;
+	padding: 50px 120px 30px 120px;
+	width: 951px;
+	background: #dddddd;
+}
+
+#nav_table {
+	font-family: "Times New Roman","Sans-serif";
+	width: 951px;
+	padding-left: 300px;
+	background: #ededed;
+	text-align: center;
+}
+
+#main_pic {
+	position: relative;
+	padding: 0px;
+	margin: 0px 0px -4px 0px;
+}
+
+#kapellimestari_text {
+	position: absolute;
+	top: 165px;
+	left: 0px;
+	opacity: 0;
+}
+
+#logo {
+	float: left;
+	width: 300px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#sub_links {
+	text-align: left;
+	padding-left: 85px;
+	margin: 70px auto;
+}
+
+#sub_links a {
+	font-size: 12pt;
+}
+
+#logo_img {
+	display: block;
+	margin: 35px auto;
+}
+
+#text {
+	margin-left: 300px;
+	padding: 10px;
+}
+
