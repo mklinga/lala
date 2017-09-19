@@ -4,7 +4,7 @@
   <section class='block'>
     <h2>Liity jäseneksi</h2>
     <p>
-      Varsinaiseksi jäseneksi voit liittyä käytyäsi Laitoslaulajat ry:n viikonloppuvalmennuksen. Laulajilta edellytetään laulutaustaa. Jäsenmaksu on 15 euroa.
+      Jäseneksi voi liittyä kuka vain, mutta laulajaksi pääsee vasta käytyään Laitoslaulajat ry:n valmennuksen. Laulajilta edellytetään laulutaustaa. Jäsenmaksu on 15 euroa.
     </p>
   </section>
   <section class='block no-padding'>
